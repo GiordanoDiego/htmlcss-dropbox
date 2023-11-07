@@ -10,6 +10,12 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 .container{
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.big-container{
     max-width: 1000px;
     margin: 0 auto;
     width: 100%;
@@ -43,27 +49,64 @@ html{
  .header-container ul li a{
    text-decoration: none;
    color: black;
-   padding: 3px 4px; 
+   padding: 4px 8px; 
  }
 
 .header-container-right ul li:last-child a{
     background-color: #3061FF;
     color: white;
 } 
-
-
 /* -----------------MAIN RULE----------------- */
+                /* SECTION 1 JUMBO */
+.section-1-jumbo{
+    background-color: #B4D0E7;
+}
+.section-1-jumbo h1{
+    font-size: 3em;
+    padding: 30px 0;
+}
+.colum-left-section-1{
+    width: calc((100% / 3));
+}
+.colum-right-section-1{
+    width: calc((100% / 3)*2);
+}
+.colum-left-section-1 p{
+    margin-bottom: 30px;
+}
+.colum-left-section-1 a{
+    color: white;
+    background-color: #3061FF;
+    padding: 4px 8px; 
+    text-decoration: none;
+}
+.colum-left-section-1 p:last-of-type{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.arrow {
+    font-size: 2em;
+}
+.img-jumbo img{
+    width: 100%;
+    display: inline-block
+}
+
 
 /* -----------------FOOTER RULE----------------- */
 
 
 
 /* -----------------DEBUG----------------- */
-.debug .container {
+/* .debug .container {
     background-color: beige;
     border: 1px dashed red;
 }
 
 .debug header *{
     border: 1px dashed red;
-}
+} */
+
+/* .debug .section-1-jumbo *{
+    border: 1px dashed red;
+} */
