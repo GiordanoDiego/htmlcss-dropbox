@@ -72,7 +72,26 @@ hr{
 }
 
 /* -----------------MAIN RULE----------------- */
+/*cambio il tipo di stile della lista*/
+main ul li::before {
+    content: "\2713";
+    color: green;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  main section .margin{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+ 
 /* ---------SECTION 1 JUMBO---------- */
+.big-container{
+    position: relative;
+    top: 60px;
+}
 .section-1-jumbo{
     background-color: #B4D0E7;
 }
@@ -109,9 +128,13 @@ hr{
 
 /* ------SECTION 2-------  */
 /* SECTION 2 TOP */
+.section-2{
+    margin-top: 100px;
+}
 .section-2 h2{
     margin-top: 60px;
     margin-bottom: 40px;
+    font-size: 2em;
 }
 
 .section-2 div label{
@@ -130,10 +153,10 @@ hr{
 
 /* SECTION 2 CENTER */
 .row-2-section-2 *{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-.colum-1-section-2, .colum-2-section-2, .colum-3-section-2 {
+.colum-1-section-2 {
     border: 2px solid lightgray;
     padding-left: 20px;
     padding-right: 20px;
@@ -145,8 +168,9 @@ hr{
 }
 
 .section-2 ul, .section-2 li{
-    margin-left: 15px;
+    list-style: none;
 }
+
 
 /* SECTION 2 BOTTOM */
 
