@@ -8,6 +8,7 @@
 /* -----------------GENERAL RULE----------------- */
 html{
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 .container{
     max-width: 950px;
@@ -157,9 +158,18 @@ main ul li::before {
     width: 30%;
 }
 
+.section-1-jumbo a.anchor{
+    color: black;
+    background:none
+}
+
 /* SECTION 2 CENTER */
 .row-2-section-2 *{
     margin-bottom: 10px;
+}
+
+.row-2-section-2 i{
+    margin-right: 7px;
 }
 
 .colum-1-section-2 {
@@ -175,6 +185,14 @@ main ul li::before {
 
 .section-2 ul, .section-2 li{
     list-style: none;
+}
+.size-button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.plan-information-1{
+    min-height: 400px;
 }
 
 
@@ -324,6 +342,10 @@ main ul li::before {
 }
 
 /* -------SECTION 7------ */
+.section-7{
+    min-height: 300px;
+    align-items: center;
+}
 .section-7 .col-1{
     width: 50%;
 }
@@ -336,12 +358,13 @@ main ul li::before {
 }
 .section-7 a{
     background-color: white;
-    padding: 4px 22px;
+    padding: 3px 20px;
     text-decoration: none;
     color: black;
 }
 
 .link-try-free{
+    padding: 10px;
     margin-top: 60px;
     margin-bottom: 60px;
     margin-left: 60px;
@@ -349,6 +372,7 @@ main ul li::before {
 /* -------SECTION 8------ */
 .section-8{
     margin-top: 80px;
+    margin-bottom: 60px;
 }
 .section-8 h3{
     font-size: 1.8em;
@@ -373,6 +397,14 @@ footer{
     padding-top: 60px;
     padding-bottom: 60px;
 
+}
+
+footer li a{
+    font-size: 13px;
+}
+
+footer .language{
+    font-size: 14px;
 }
 footer > div{
    justify-content: space-between;
@@ -404,6 +436,16 @@ footer hr{
 }
 .language{
     color: lightgrey;
+}
+
+.choose-language{
+    margin-top: 1px;
+    display: none;
+    
+}
+.language:active .choose-language{
+    display: block;
+    color: white;
 }
 
 /* -----------------DEBUG----------------- */
