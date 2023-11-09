@@ -1,0 +1,178 @@
+/* -----------------RESET RULE----------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+/* -----------------GENERAL RULE----------------- */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.col-1, .col-2{
+    width: 50%;
+    padding-top: 70px;
+}
+
+.col-1{
+    padding-right: 80px;
+}
+.col-1{
+    overflow: auto;
+}
+
+.right-background{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    background-color: #F7F5F2;
+    height: calc(200vh);
+    z-index: -1;
+}
+.position{
+    position: relative;
+}
+
+.color-gray{
+    color: gray;
+}
+.color-green{
+    color: #14503C;
+}
+a{
+    color: black;
+}
+
+.margin-right{
+    margin-right: 15px;
+}
+.margin-top{
+    margin-top: 20px;
+}
+
+.txt-barred{
+    text-decoration: line-through;
+}
+label img{
+    margin-left: 5px;
+}
+/* -----------------HEADER RULE----------------- */
+
+.logo{
+    width: 50%;
+    padding: 5px;
+}
+.logo-payment{
+    width: 60px;
+    justify-content: center;
+}
+.header-container{
+    justify-content: space-between;
+}
+header div a{
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: black;
+}
+.login-container{
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #F7F5F2;
+}
+
+/* -----------------MAIN RULE----------------- */
+.main-container{
+    position: relative;  
+    margin-top: 30px;
+}
+
+/* left section */
+h1, h2{
+    margin-bottom: 8px;
+}
+
+h2{
+    font-weight: lighter;
+}
+.col-1 p a{
+    color: black;
+    font-weight: bold;
+}
+
+.col-1-row-2, .col-1-row-3, .col-1-row-4, .col-1-row-5, .col-1-row-6, .col-1-row-7{
+    margin-top: 60px;
+}
+
+.container-radio{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.container-radio > div{
+    margin-top: 15px;
+   
+}
+
+.price{
+    margin-left: 15px;
+}
+
+.price span{
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+.google-button button{
+    padding: 4px 40px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+button.margin-top{
+    background-color: #244CC7;
+    padding: 6px 40px;
+    color: white;
+    border: none;
+}
+
+.col-1-row-7{
+    margin-bottom: 60px;
+}
+/* right section */
+.col-2{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.col-2-row-1, .space-between{
+    justify-content: space-between;
+}
+
+
+/* -----------------FOOTER RULE----------------- */
+
+
+
+/* -----------------DEBUG----------------- */
+/* header{
+    border: 1px dashed red;
+} */
+/* .debug .container {
+    background-color: beige;
+    border: 1px dashed red;
+} */
