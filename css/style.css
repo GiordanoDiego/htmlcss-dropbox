@@ -81,6 +81,19 @@ img{
     padding: 4px 10px; 
 }
 
+.show-link:hover .link-header{
+    display: flex;
+}
+
+.link-header{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 8px;
+    flex-direction: column;
+    background-color: rgba(10, 10, 10, 0.5);
+    display: none;
+    text-align: start;
+}
 /* -----------------MAIN RULE----------------- */
 /*cambio il tipo di stile della lista*/
 main ul li::before {
