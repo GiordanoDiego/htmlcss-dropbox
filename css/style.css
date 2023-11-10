@@ -94,6 +94,11 @@ img{
     display: none;
     text-align: start;
 }
+
+header a.button-login{
+    display: inline-block;
+    text-align: center;
+}
 /* -----------------MAIN RULE----------------- */
 /*cambio il tipo di stile della lista*/
 main ul li::before {
@@ -229,6 +234,11 @@ main ul li::before {
 .col-2{
     width: 30%;
     padding:20px;
+}
+
+.col-2 a.button{
+    display: inline-block;
+    text-align: center;
 }
 
 .col-1 h4, .col-1 h5{
